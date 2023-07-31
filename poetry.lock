@@ -215,13 +215,13 @@ toml = ["tomli"]
 
 [[package]]
 name = "cvxbson"
-version = "0.0.3"
+version = "0.0.4"
 description = "Dealing with json and bson files"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "cvxbson-0.0.3-py3-none-any.whl", hash = "sha256:29943de77434feda34e94d3597b4311f3e22535506ad01cf4f5050bd3a8f1b5f"},
-    {file = "cvxbson-0.0.3.tar.gz", hash = "sha256:e168901c3ad4190ee648b7298ff08e3aab43410c70ddcf13e10448a7161005ba"},
+    {file = "cvxbson-0.0.4-py3-none-any.whl", hash = "sha256:537441ba59c52c5fc809333bb5a050198cded826c064a63700376cee5aaa4ee3"},
+    {file = "cvxbson-0.0.4.tar.gz", hash = "sha256:804a4803a3175464d5a1fa7b98f3b0527945e25d7e5ce9c5fe330c2201ae6645"},
 ]
 
 [package.dependencies]
@@ -229,6 +229,7 @@ bson = "0.5.10"
 numpy = "*"
 numpyencoder = "*"
 pyarrow = "*"
+typing_extensions = "*"
 
 [[package]]
 name = "exceptiongroup"
@@ -523,6 +524,17 @@ files = [
 ]
 
 [[package]]
+name = "typing-extensions"
+version = "4.7.1"
+description = "Backported and Experimental Type Hints for Python 3.7+"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "typing_extensions-4.7.1-py3-none-any.whl", hash = "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36"},
+    {file = "typing_extensions-4.7.1.tar.gz", hash = "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"},
+]
+
+[[package]]
 name = "urllib3"
 version = "2.0.4"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -541,5 +553,5 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.8,<3.12"
-content-hash = "ce8a7f373b497e2068b190d712628367f436adc4d8da84b5c4aecc5aee713816"
+python-versions = ">=3.8,<3.11"
+content-hash = "d2d1827995e481ca7c5dc1b8d8176a4e893697837216e848fa1f91040a462a7d"

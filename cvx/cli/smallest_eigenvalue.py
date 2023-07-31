@@ -17,9 +17,9 @@ def smallest_ev(bson_file) -> None:
 
     poetry run smallest-eigenvalue cli/data/test.bson
     """
-    matrix = read_bson(bson_file)["cov"]
-    w, _ = np.linalg.eigh(matrix)
-    return np.min(w)
+    for key, matrix in read_bson(bson_file).items():
+        print(key)
+        print(np.min(np.linalg.eigh(matrix)[0]))
 
 
 def main():
