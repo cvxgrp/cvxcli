@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import fire  # type: ignore
 import requests  # type: ignore
 
