@@ -1,7 +1,8 @@
-import pytest
 import mock
+import pytest
 
 from cvx.cli.weather import cli
+
 
 def test_weather():
     temperature = cli(metric="temperature")
@@ -20,5 +21,3 @@ def test_server_down():
     with mock.patch("requests.get", return_value=mock.Mock(status_code=500)):
         with pytest.raises(ConnectionError):
             cli("temperature")
-
-

@@ -22,5 +22,5 @@ def smallest_ev(bson_file) -> None:
         print(np.min(np.linalg.eigh(matrix)[0]))
 
 
-def main():    # pragma: no cover
+def main():  # pragma: no cover
     fire.Fire(smallest_ev)
