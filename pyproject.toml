@@ -11,6 +11,8 @@ packages = [{include = "cvx"}]
 python = ">=3.8,<3.12"
 numpy = "*"
 fire = "*"
+cvxbson = "*"
+requests = "*"
 
 [tool.poetry.group.test.dependencies]
 pytest = "7.2.0"
@@ -26,7 +28,6 @@ black = "23.3.0"
 [tool.poetry.scripts]
 weather = "cvx.cli.weather:main"
 smallest-eigenvalue = "cvx.cli.smallest_eigenvalue:main"
-
 
 [build-system]
 requires = ["poetry-core"]
