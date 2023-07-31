@@ -23,8 +23,9 @@ ruff = "0.0.277"
 pre-commit = "*"
 black = "23.3.0"
 
-[tool.poetry.group.stubs.dependencies]
-mypy = "*"
+[tool.poetry.scripts]
+weather = "cvx.cli.weather:main"
+smallest-eigenvalue = "cvx.cli.smallest_eigenvalue:main"
 
 
 [build-system]
