@@ -10,7 +10,7 @@ We demonstrate how to deploy to simple command line apps using pipx.
 ## Install pipx
 
 The current way to deploy apps is to use [pipx](https://pypa.github.io/pipx/).
-The tool that creates a virtual environment for each app.
+The tool creates a virtual environment for each app.
 
 For the installation of pipx please refer to the [pipx documentation](https://pypa.github.io/pipx/installation/).
 
