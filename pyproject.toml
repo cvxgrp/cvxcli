@@ -15,7 +15,7 @@ requests = "*"
 
 [tool.poetry.group.test.dependencies]
 pytest = "7.4.0"
-pytest-cov = "4.0.0"
+pytest-cov = "4.1.0"
 mock = "*"
 
 [tool.poetry.scripts]
