@@ -32,8 +32,7 @@ repos:
     rev: 0.26.3
     hooks:
       - id: check-dependabot
-        args: [ "--verbose" ]
-
+        args: ["--verbose"]
       - id: check-github-workflows
         args: ["--verbose"]
 
@@ -42,3 +41,11 @@ repos:
     hooks:
       - id: poetry-check
       - id: poetry-lock
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.4
+    hooks:
+        - id: insert-license
+          files: ^(cvx)
+          args:
+            ['--license-filepath', 'copyright.txt', '--no-extra-eol']
