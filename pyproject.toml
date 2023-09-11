@@ -14,7 +14,7 @@ cvxbson = "*"
 requests = "*"
 
 [tool.poetry.group.test.dependencies]
-pytest = "7.4.1"
+pytest = "7.4.2"
 pytest-cov = "4.1.0"
 mock = "*"
 
