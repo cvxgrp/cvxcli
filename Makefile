@@ -41,9 +41,7 @@ help:  ## Display this help screen
 	@echo -e "\033[1mAvailable commands:\033[0m"
 	@grep -E '^[a-z.A-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}' | sort
 
-.PHONY: conduct
-conduct: ## Generete CODE of CONDUCT and Contributing
-	@poetry run pip install jinja2 toml
-	@gh gist clone a4a054e3e80a8021c351b027280d3b09 tmp
-	@poetry run python tmp/parse.py
-	@rm -rf tmp
+.PHONY: boil
+boil: ## Update the boilerplate code
+	@poetry run pip install cvxcooker
+	@poetry run cook pyproject.toml
