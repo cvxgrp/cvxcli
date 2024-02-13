@@ -24,7 +24,7 @@ cvxcli is the home for two apps that are meant to be used from the command line.
 So please install via pipx
 
 ```bash
-pipx cvxcli
+pipx install cvxcli
 ```
 
 This command will create a virtual environment for cvxcli and install the package
