@@ -22,7 +22,7 @@ dev = [
     "mock"
 ]
 
-[tool.scripts]
+[project.scripts]
 weather = "cvx.cli.weather:main"
 smallest-eigenvalue = "cvx.cli.smallest_eigenvalue:main"
 
