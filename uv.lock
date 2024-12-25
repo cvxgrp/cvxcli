@@ -192,6 +192,7 @@ source = { editable = "." }
 dependencies = [
     { name = "cvxbson" },
     { name = "fire" },
+    { name = "numpy" },
     { name = "requests" },
 ]
 
@@ -207,6 +208,7 @@ dev = [
 requires-dist = [
     { name = "cvxbson", specifier = ">=0.1.0" },
     { name = "fire", specifier = ">=0.7.0" },
+    { name = "numpy", specifier = ">=2.2.1" },
     { name = "requests", specifier = ">=2.32.3" },
 ]
 
