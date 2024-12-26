@@ -27,8 +27,8 @@ So please install via pipx
 uvx --from cvxcli weather
 ```
 
-This command will create a temporary virtual environment for cvxcli and install the package
-into that environment.
+This command will create a temporary virtual environment for cvxcli 
+and install the package into that environment.
 
 Please note that you **do need uvx** to be installed on your machine.
 
