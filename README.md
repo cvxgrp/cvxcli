@@ -21,7 +21,7 @@ installed via pip but we advise against that.
 
 cvxcli is not exactly a package you should use as a dependency in your own code.
 cvxcli is the home for two apps that are meant to be used from the command line.
-So please install via pipx
+So please run via uvx
 
 ```bash
 uvx --from cvxcli weather
@@ -32,4 +32,3 @@ and install the package into that environment.
 
 Please note that you **do need uvx** to be installed on your machine.
 
-## Using the apps
