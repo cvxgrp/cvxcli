@@ -7,7 +7,7 @@
 
 We demonstrate how to deploy to simple command line apps using uvx.
 
-## Install pipx
+## Install uvx
 
 The current way to deploy apps is to use [uvx](https://docs.astral.sh/uv/guides/tools/).
 The tool creates a temporary virtual environment for each app.
