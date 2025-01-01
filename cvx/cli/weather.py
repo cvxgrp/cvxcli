@@ -23,7 +23,7 @@ def cli(metric: str, latitude: float = 37.4419, longitude: float = -122.143) -> 
     ----------
     metric : str
         The metric to get the current weather for.
-        Use time, temperature, windspeed, winddirection ot weathercode
+        Use time, temperature, windspeed, winddirection or weathercode
         For details: https://open-meteo.com/en/docs
     latitude : float, optional
         The latitude to get the current weather for, by default 37.4419
