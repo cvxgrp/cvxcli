@@ -21,7 +21,7 @@ clean: ## Clean build artifacts and stale branches
 
 test: install ## Run tests
 	uv pip install pytest
-	uv run pytest src/tests
+	uv run pytest tests
 
 help: ## Show this help message
 	@echo "Usage: make [target]"
